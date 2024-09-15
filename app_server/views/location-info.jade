@@ -1,0 +1,86 @@
+extends layout
+
+block content
+  .row.banner
+    .col-12
+      h1 Refresh interiors
+  
+  .row
+    .col-12.col-lg-9
+      .row
+        .col-12.col-md-6
+          p.rating
+            i.fas.fa-star
+            i.fas.fa-star
+            i.fas.fa-star
+            i.far.fa-star
+            i.far.fa-star
+          p HomeLane , Platinum Street Roadno-4/3 Hyderabad.
+          
+          .card.card-primary
+            .card-block
+              h2.card-title Opening hours
+              p.card-text Monday - Friday : 7:00am - 7:00pm
+              p.card-text Saturday : 8:00am - 5:00pm
+              p.card-text Sunday : closed
+
+          .card.card-primary
+            .card-block
+              h2.card-title Services
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;Lighting
+              | &nbsp;
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;Styling & Staging
+              | &nbsp;
+              span.badge.badge-warning
+                i.fa.fa-check
+                | &nbsp;Customization
+              | &nbsp;
+
+        //.col-12.col-md-6.location-map
+          //.card.card-primary
+            .card-block
+             // h2.card-title Location map
+              //img.img-fluid.rounded(src='http://maps.googleapis.com/maps/api/staticmap?center=51.455041,-0.9690884&zoom=17&size=400x350&sensor=false&markers=51.455041,-0.9690884&scale=2&key=<API Key>')
+
+    .row
+      .col-12
+        .card.card-primary.review-card
+          .card-block
+            a.btn.btn-primary.float-right(href='/location/review/new')
+              | Add review
+            h2.card-title Customer reviews
+            
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor John Smith
+                small.reviewTimestamp  1 july 2018
+              .col-12
+                p Refresh Interiors completely changed the feel of my home. I'm amazed by the transformation.
+
+            .row.review
+              .col-12.no-gutters.review-header
+                span.rating
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.fas.fa-star
+                  i.far.fa-star
+                  i.far.fa-star
+                span.reviewAuthor kushi
+                small.reviewTimestamp  22 December 2020
+              .col-12
+                p I love the fresh and stylish look of my rooms now. Thank you, Refresh Interiors!
+    
+    .col-12.col-lg-3
+      p.lead
+        | Enhance your space with our lighting appliances and expert room styling services for a functional and aesthetic environment.
+    
